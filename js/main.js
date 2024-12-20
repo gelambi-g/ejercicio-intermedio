@@ -72,7 +72,7 @@ function gameOver () {
         } else if (scorePlayer < scoreComput) {
             h3.innerHTML = "¡Has perdido el juego!";
         }else {
-            h3.innerHTML = "¡Has empatado con la computadora"!;
+            h3.innerHTML = "¡Has empatado con la computadora!";
         }
         btn.classList.add("hidden");
         btnReload.classList.remove("hidden");
