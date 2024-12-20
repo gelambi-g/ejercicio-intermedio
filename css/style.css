@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+.hidden {
+    display: none;
+}
+
+.main {
+    border: 2px solid rgb(230, 125, 27);
+    background-color: antiquewhite;
+    width: 60vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.title_2 {
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+.form {
+    margin: 20px;
+}
+.select {
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 1.9rem;
+    margin-right: 5px;
+    background-color: rgb(209, 159, 128);
+    border: 1px solid black;
+}
+
+.btn_play {
+    font-size: 1.8rem;
+    padding: 5px;
+    background-color: rgb(209, 159, 128);
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.result {
+    font-size: 1.8rem;
+    background-color: rgb(202, 179, 104);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.player {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.computadora {
+    font-size: 1.5rem;
+}
+
+.reload {
+    font-size: 2rem;
+    padding: 10px;
+    background-color: rgb(209, 159, 128);
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: bold;
+}
